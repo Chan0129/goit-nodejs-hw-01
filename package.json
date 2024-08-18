@@ -1,0 +1,29 @@
+{
+  "name": "goit-nodejs-hw-1",
+  "version": "1.0.0",
+  "description": "GoIT node.js 1st hometask",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chan0129/goit-nodejs-hw-01.git"
+  },
+  "author": "chan0129",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chan0129/goit-nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/chan0129/goit-nodejs-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "commander": "^9.2.0",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.5.1"
+  }
+}
